@@ -1,1 +1,0 @@
-{"root":["./src/config.ts","./src/game.ts","./src/hex.ts","./src/main.ts","./src/state.ts","./src/types.ts","./src/sim/actions.ts","./src/sim/rates.ts","./src/sim/step.ts","./src/sim/trace.ts","./src/ui/audio.ts","./src/ui/board.ts","./src/ui/draw.ts","./src/ui/format.ts","./src/ui/panels.ts","./scripts/bot.ts"],"version":"5.6.3"}
