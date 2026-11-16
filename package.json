@@ -1,0 +1,17 @@
+{
+  "name": "evercraft3",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "bot": "esbuild scripts/bot.ts --bundle --platform=node --format=esm --outfile=node_modules/.cache/bot.mjs --log-level=warning && node node_modules/.cache/bot.mjs",
+    "deploy": "node scripts/deploy.mjs"
+  },
+  "devDependencies": {
+    "typescript": "~5.6.2",
+    "vite": "^6.0.3"
+  }
+}
