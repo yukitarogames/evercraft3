@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="dark">
+  <title>EverCraft 3: Lattice</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Josefin+Sans:wght@300;400;600&display=swap">
+  <script type="module" crossorigin src="./assets/index-Duydfm0T.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BNmVUoVr.css">
+</head>
+<body>
+  <div class="app">
+    <header class="top">
+      <h1>EverCraft 3: <b>Lattice</b></h1>
+      <span class="tag">playtest build</span>
+    </header>
+    <main class="layout">
+      <section class="boardcol" aria-label="Board">
+        <div class="hud" id="hud"></div>
+        <canvas id="board" aria-label="The lattice: hex board with beams of light"></canvas>
+        <div class="strip" id="strip" aria-live="polite"></div>
+      </section>
+      <aside class="side">
+        <section id="p-goals" class="panel"></section>
+        <section id="p-selection" class="panel"></section>
+        <section id="p-tray" class="panel"></section>
+        <section id="p-inventory" class="panel"></section>
+        <section id="p-cutbook" class="panel"></section>
+        <section id="p-footer" class="panel plain"></section>
+      </aside>
+    </main>
+  </div>
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+  <div id="modal" class="modal" hidden></div>
+</body>
+</html>
